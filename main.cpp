@@ -11,7 +11,6 @@ using namespace std;
 #include "Person.hpp"
 
 
-
 int main() {
     cout << "Name: Jackie Ocaña - Prog3 - March 14th, 2021" << endl;
     Person p1; //new class p1,p2 declared
@@ -23,6 +22,7 @@ int main() {
     ptrPerson1 = &p1; //pointer set to address of p11
     ptrPerson2 = &p2; //pointer set to address of p11
     
+    //details for person 1 set and printed
     cout << "Person 1 details:" << endl;
     ptrPerson1->setFirstName("Jacqueline");
     cout << ptrPerson1->getFirstName() << endl;
@@ -34,6 +34,8 @@ int main() {
     cout << ptrPerson1->getYearOfBirth()<< endl;
     cout << endl;
     
+    
+    //details for person 2 set and printed
     cout << "Person 2 details:" << endl;
     ptrPerson2->setFirstName("Manuel");
     cout <<  ptrPerson2->getFirstName()<< endl;
